@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anne-Marie Kouakou</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+<header>
+        <nav>
+            <div class="header-text">
+                <h1>Hugging Face Spaces</h1>
+            </div>
+        </nav>
+    </header>
+
+    <section class="introduction">
+<h2>Introduction</h2>
+<p>
+Depuis sa création, Hugging Face s'est imposée comme bien plus qu'une simple bibliothèque logicielle. Avec plus de 1,86 million de modèles hébergés et des milliers de jeux de données, elle représente l'écosystème le plus important au monde pour le partage de modèles d'IA à poids ouverts. Cette dissertation analyse Hugging Face comme phénomène technique, social et économique en examinant son architecture, ses dynamiques communautaires et les perspectives d'innovation qu'elle ouvre.
+</p>
+<h4>L'architecture technique de Hugging Face</h4>
+<h5>Une infrastructure modulaire</h5>
+<p>La force de Hugging Face réside dans sa conception technique. La plateforme propose des outils réduisant les frictions dans le développement de l'IA :</p>
+<ul>
+<li>Bibliothèques core : transformers, datasets, tokenizers, accelerate, diffusers</li>
+<li>Intégration frameworks : compatibilité native avec PyTorch et TensorFlow</li>
+<li>Interface unifiée : API standardisée pour des milliers de modèles</li>
+</ul>
+
+</section>
+
+<h5>Hugging Face Spaces</h5>
+<p>Les Spaces permettent d'héberger des applications de démonstration directement sur la plateforme via :</p>
+<ul>
+    <li>SDK supportés : Gradio, Streamlit, Docker</li>
+    <li>Fonctions : validation sociale des modèles, diffusion des connaissances, collaboration élargie</li>
+    <li>Usage : création de portfolios dynamiques pour chercheurs et organisations</li>
+</ul>
+
+<section class="Modèles et documentation">
+        <h2>Modèles et documentation</h2>
+        <p>
+Le Hub Hugging Face organise l'accès aux modèles avec :    </p>
+    <h5>Profilage</h5>
+        <ul>
+            <li>Model Cards : fiches standardisées documentant performances, limitations et biais potentiels</li>
+            <li>Tags et filtres : classification par tâche, framework, licence</li>
+            <li>API d'inférence : déploiement simplifié des modèles</li>
+            <p>Outils associés : huggingface_hub (bibliothèque Python), AutoModel, pipeline</p>
+        </ul>
+
+    </section>
+
+<h2>Dynamiques socio-économiques
+</h2>
+<section class="Reconfiguration des rapports de puissance">
+        <h5>Reconfiguration des rapports de puissance</h5>
+        <ul>
+            <li>Déclin de la domination américaine : érosion de la prééminence des acteurs états-uniens</li>
+            <li>Émergence de nouveaux pôles : industrie chinoise (DeepSeek, Qwen) en progression</li>
+            <li>Mutations techniques : taille moyenne des modèles multipliée par 17, multimodalité +340%, MoE +700%</li>
+            <p>Outils d'analyse : huggingface_hub avec méthodes de recherche, API pour métadonnées, bibliothèques d'analyse réseau</p>
+            </ul>
+    </section>
+
+    <section class="Dynamiques communautaires">
+        <h5>Dynamiques communautaires</h5>
+        <ul>
+            <li>Obsolescence rapide : modèles abandonnés après pic d'attention</li>
+            <li>Communautés nomades : groupes se formant puis se dispersant</li>
+            <li>Communautés persistantes : rares modèles avec gouvernance stable</li>
+            <p>Outils d'observation : analyse des discussions (via API), suivi des forks et commits, métriques de téléchargement temporelles</p>
+        </ul>
+    </section>
+
+    <section class="Évolution des licences et propriétés">
+        <h5>Évolution des licences et propriétés</h5>
+        <ul>
+            <li>Dérive des licences : souvent vers plus de permissivité, parfois en violation</li>
+            <li>Spécialisation linguistique : passage du multilingue à l'anglophone exclusif</li> 
+            <li>Standardisation documentaire : model cards plus courtes, génération automatisée</li>  
+            <p>Outils de traçabilité : graphes de dépendances, analyse de licences, comparaison de configurations</p>     
+        </ul>
+</section>
+
+<section class="Perspectives d'innovation">
+    <h2>Perspectives d'innovation</h2>
+    <h5>Projets réalisables avec Hugging Face</h5>
+    <ul>
+        <li>Études empiriques sur écosystèmes d'IA → utilisation de datasets et métadonnées</li>
+        <li>Analyses de concentration économique → scraping API + analyses statistiques</li>
+        <li>Recherche sur traçabilité → construction de graphes de filiation</li>
+        <li>Applications spécialisées par affinage → Trainer, SFTTrainer, LoRA (via PEFT)</li>
+        <li>Interfaces de démonstration → Spaces avec Gradio/Streamlit</li>
+        <li>Chaînes de traitement → pipelines personnalisés, transformers pour inference</li>
+        </ul>
+</section>
+
+<h5>outils utiliser</h5>
+    <ul>
+        <li>Excel / Google Sheets(Nettoyage simple)</li>
+        <li>OpenRefine	(Nettoyage intermédiaire)</li>
+        <li>Python avec Pandas	(Nettoyage avancé)</li>
+        <li>Data Ladder	(Nettoyage pro)</li>
+        <li>Winpure	(Déduplication)</li>
+        <li>Melissa Clean Suite	(Nettoyage en temps réel)</li>
+        </ul>
+
+<h5>Guide pratique pas à pas</h5>
+<p>Pour développer avec des modèles :</p>
+<ul>
+<li>Sélection : explorer via Hub → filtres par tâche, benchmarks</li>
+<li>Test : pipeline("task", model="id") pour évaluation rapide</li>
+<li>Adaptation : fine-tuning avec Trainer ou PEFT (LoRA, Adapters)</li>
+<li>Déploiement : Spaces (Gradio) ou Inference API</li>
+<p>Pour étudier les communautés :</p>
+<li>Discussions scraping via API (issues, pull requests)</li>
+<li>Analyse longitudinale des téléchargements</li>
+<li>Entretiens qualitatifs avec mainteneurs</li>
+</ul>
+
+<h5>Défis éthiques</h5>
+<ul>
+ <li>Traçabilité : respect des licences amont → outils de vérification automatisés</li>
+<li>Transparence : documentation substantielle vs formelle → incitations adaptées</li>
+<li>Concentration : nouveaux monopoles potentiels → régulation</li>
+<li>Environnement : empreinte carbone → modèles efficients</li>
+<p>Outils d'évaluation : codecarbon, evaluate (métriques), analyse de biais</p>
+</ul>
+<h2>Analyse prédictive</h2>
+<P>Hugging Face constitue un laboratoire privilégié pour observer les transformations de l'IA. L'infrastructure technique (transformers, spaces, hub) est remarquablement aboutie, mais les communautés peinent à se structurer durablement, les pratiques de documentation restent inégales, et les dynamiques économiques reproduisent certaines formes de concentration.
+</P>
+<P>L'avenir dépendra de la capacité à résoudre les tensions entre standardisation et diversité, ouverture formelle et transparence substantielle, agilité technique et gouvernance robuste. Hugging Face rappelle que l'IA n'est pas qu'une affaire de modèles et de données : elle est aussi fondamentalement une affaire de communautés et de choix collectifs.</P>
+
+
+
+<footer>
+    <p>© 2026 Anne-Marie KOUAKOU</p>
+</footer>
+
+
+
+
+</body>
+</html>
